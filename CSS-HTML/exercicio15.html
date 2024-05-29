@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 14</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .titulo{
+            background-color: deeppink;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 30px;
+            color: white;
+        }
+        .conteudo{
+            background-image: linear-gradient(to bottom, blue, yellow, green);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .item{
+            width: 20%;
+            height: 200px;
+            margin: 10px;
+            background-color: darkseagreen;
+            flex-grow: 0;
+            flex-shrink: 1;
+            border-radius: 10px;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: lightpink;
+        }
+        .item:hover{
+            width: 30%;
+            height: 30px;
+        }
+        .itemA{
+            background-image: url(Img/avatar\ 1.webp);
+        }
+        .itemB{
+            background-image: url(Img/avatar\ 2.jpg);
+        }
+        .itemC{
+            background-image: url(Img/avatar\ 3.jpg);
+        }
+        .itemD{
+            background-image: url(Img/avatar\ 4.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <h1>COLABORADORES</h1>
+    </div>
+    <div class="item itemA"></div>
+    <div class="item itemB"></div>
+    <div class="item itemC"></div>
+    <div class="item itemD"></div>
+    <div class="item itemA"></div>
+    <div class="item itemB"></div>
+    <div class="item itemC"></div>
+    <div class="item itemD"></div>
+    <div class="item itemA"></div>
+    <div class="item itemB"></div>
+    <div class="item itemC"></div>
+    <div class="item itemD"></div>
+</body>
+</html>

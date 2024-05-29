@@ -1,0 +1,97 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+main{
+    margin-top: 260px;
+}
+p{
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:deeppink
+}
+.menu_top{
+    width: 100%;
+    height: 150px;
+    border-top: 10px solid violet; 
+    background-color: rgb(255, 255, 255);
+
+
+}
+.top_esp{
+    width: 140px;
+    float: left;
+    padding: 10px;
+
+}
+.top_dir{
+    float: left;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:100px;
+    color:pink;
+    padding-left: 35px;
+    padding-top: 20px;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.menu_down{
+    background-color: violet; 
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu ul li{
+    background-color: violet; 
+    width: 150px;
+    height: 40px;
+    float: left;
+    display: inline;
+    text-align: center;
+    line-height: 40px;
+    position:relative
+}
+.menu ul li:hover{
+    background-color: azure;
+}
+.menu ul{
+    padding: 0;
+    max-width: 1000px;
+}
+.menu ul ul {
+    display: none;
+}
+.menu ul li:hover >ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 131px;
+    position: absolute;
+    top: 0px;
+}
+.menu ul ul ul li:hover{
+    background-color: lightpink;
+}
+.menu ul ul ul:hover{
+    background-color: violet;
+}
+
+.clear (clear: both;)
